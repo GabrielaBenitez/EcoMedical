@@ -1,0 +1,232 @@
+
+/* ---------------------------------------------------BODY--------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Nunito;
+}
+
+
+
+/* --------------------------------------------------HEADER------------------------------------------------- */
+
+header {
+    background-color: #FFFFFF;
+    max-width: 100%;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/* LOGO */
+
+.logo {
+    margin-top: 10px;
+    height: 21vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    box-sizing: border-box;
+}
+
+/* BARRA DE NAVEGACIÓN */
+
+.navegacion-container {
+    background-color: #282466;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav ul li {
+    font-size: 12px;
+    font-weight: bolder;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 10px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav li:hover {
+    background-color: #349F9A;
+}
+
+
+
+/* ---------------------------------------------------MAIN------------------------------------------------- */
+
+main { 
+    background-color: #DAD9DD;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+
+
+/* -------------------------------------------------FOOTER------------------------------------------------ */
+
+.footer-container {
+    background-color: #282466;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.footer-container i {
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+i.fa-brands {
+    font-size: 1rem;
+}
+
+.derechos {
+    font-size: 8px;
+    text-align: center;
+}
+
+.footer-container i:hover {
+    background-color: #349F9A;
+}
+
+
+
+/* -----------------------------------------------RESPONSIVE---------------------------------------------- */
+
+
+/* HEADER */
+
+@media (min-width: 600px) {
+    .logo {
+        height: 30vh;
+    }
+    nav ul li {
+        font-size: 16px;
+        margin: 0 15px;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .logo {
+        max-width: 70vw;
+    }
+    nav ul li {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .logo {
+        height: 35vh;
+    }
+    nav ul li {
+        font-size: 24px;
+    }
+}
+
+
+/* MAIN */
+
+@media (min-width: 600px) {
+    main {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1000px) {
+    main {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 1280px) {
+    main {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+}
+
+
+/* FOOTER */
+
+@media (min-width: 600px) {
+    .footer-container i {
+        padding-right: 20px;
+    }
+    i.fa-brands {
+        font-size: 2rem;
+    }
+    .derechos {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .footer-container i {
+        padding-right: 40px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .footer-container i {
+        padding: 15px 30px 15px 30px;
+    }
+    .derechos {
+        font-size: 14px;
+    }
+}

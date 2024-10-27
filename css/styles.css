@@ -1,0 +1,146 @@
+
+/*------------------------------------------ESTILOS DE LA PÁGINA DE INICIO-------------------------------------------*/
+
+#fondo-inicio {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    box-sizing: border-box;
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+#fondo-inicio::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/fondo-inicio.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: right center;
+    filter: blur(2px);
+    z-index: 0; 
+}
+
+#servicios-container {
+    background-color: rgba(106, 194, 191, 0.85); 
+    color: #282466;
+    font-size: 14px;
+    font-weight: 900;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+    width: 70vw;
+    height: 30vh;
+    margin: 0 auto;
+    position: relative; 
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+#servicios-container ul li {
+    list-style-type:none;
+    margin: 0 auto;
+    padding: 0px 5px 1px 1px;
+}
+
+#servicios-container ul li i {
+    color: #1b5d5d;
+    padding-right: 10px;
+}
+
+#servicios-container h2 {
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 0;
+    text-decoration: underline;
+}
+
+#servicios-container h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+#servicios-container h3 a {
+    color: #b90707;
+    text-decoration: none;
+    margin: 0;
+    font-weight: bolder;
+}
+
+#servicios-container h3 a:hover {
+    color: #b86a6a;
+}
+
+
+
+/* -----------------------------------------------RESPONSIVE---------------------------------------------- */
+
+@media (min-width: 600px) {
+    #fondo-inicio {
+        height: 50vh;
+    }
+    #servicios-container {
+        width: 45vw;
+        height: 40vh;
+        margin: 0;              
+        position: absolute;  
+        left: 3vw;
+        font-size: 18px;              
+    }
+    #servicios-container h2 {
+        font-size: 20px;
+    }
+    #servicios-container h3 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1000px) {
+    #fondo-inicio::before {
+        filter: blur(1px);
+    }
+    #servicios-container {
+        width: 40vw;
+        height: 42vh;
+        left: 5vw;
+        font-size: 20px;              
+    }
+    #servicios-container h2 {
+        font-size: 22px;
+    }
+    #servicios-container h3 {
+        font-size: 22px;
+    }
+    #servicios-container:hover {
+        transition: transform 0.3s;  
+        transform: scale(1.1);
+  }
+}
+
+@media (min-width: 1280px) {
+    #fondo-inicio {
+        height: 70vh;
+    }
+    #servicios-container {
+        width: 30vw;
+        height: 43vh;
+        left: 8vw;
+        font-size: 22px;              
+    }
+    #servicios-container h2 {
+        font-size: 24px;
+    }
+    #servicios-container h3 {
+        font-size: 24px;
+    }
+}

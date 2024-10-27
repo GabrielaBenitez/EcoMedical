@@ -1,0 +1,123 @@
+
+/*----------------------------------------- ESTILOS DE LA PAGINA UBICACIÓN -------------------------------------------*/
+
+.ubicacion-contenedor {
+    width: 100vw;
+    height: 68vh;
+    padding: 5vh;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.ubicacion-img {
+    width: 90%;
+    height: 65%;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    box-shadow: 0px 0px 10px 5px rgba(106, 194, 191);
+    object-fit: cover;
+    object-position: center;
+}
+
+.ubicacion-texto-contenedor {
+    padding: 0;
+    margin-left: 5vh;
+    margin-top: 5vh;
+}
+
+.ubicacion-texto-contenedor h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.ubicacion-texto-contenedor p {
+    margin: 0;
+    padding: 5px 0px 5px 0px;
+    font-size: 14px;
+}
+
+.ubicacion-texto-contenedor a {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color:blue;
+}
+
+
+
+/*----------------------------------------------- RESPONSIVE --------------------------------------------------------*/
+
+@media (min-width: 600px) {
+    .ubicacion-contenedor {
+        width: 100vw;
+        height: 55vh;
+        padding: 5vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .ubicacion-img {
+        width: 50%;
+        height: 45vh;
+    }
+
+    .ubicacion-texto-contenedor {
+        width: 50%;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .ubicacion-texto-contenedor h2 {
+        width: 70%;
+        font-size: 20px;
+    }
+    
+    .ubicacion-texto-contenedor p {
+        width: 70%;
+        font-size: 18px;
+        padding: 10px 0px 10px 0px;
+    }
+    
+    .ubicacion-texto-contenedor a {
+        width: 70%;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .ubicacion-texto-contenedor h2 {
+        font-size: 22px;
+    }
+    
+    .ubicacion-texto-contenedor p {
+        font-size: 20px;
+        padding: 15px 0px 15px 0px;
+    }
+    
+    .ubicacion-texto-contenedor a {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .ubicacion-texto-contenedor h2 {
+        font-size: 24px;
+    }
+    
+    .ubicacion-texto-contenedor p {
+        font-size: 22px;
+        padding: 20px 0px 20px 0px;
+    }
+    
+    .ubicacion-texto-contenedor a {
+        font-size: 22px;
+    }
+}
