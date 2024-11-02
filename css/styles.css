@@ -34,7 +34,7 @@
     font-weight: 900;
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
     width: 70vw;
-    height: 30vh;
+    height: 31vh;
     margin: 0 auto;
     position: relative; 
     padding: 0;
@@ -92,7 +92,7 @@
     }
     #servicios-container {
         width: 45vw;
-        height: 40vh;
+        height: 42vh;
         margin: 0;              
         position: absolute;  
         left: 3vw;
@@ -109,7 +109,7 @@
 @media (min-width: 1000px) {
     #servicios-container {
         width: 40vw;
-        height: 42vh;
+        height: 44vh;
         left: 5vw;
         font-size: 18px;              
     }
@@ -131,7 +131,7 @@
     }
     #servicios-container {
         width: 30vw;
-        height: 43vh;
+        height: 46vh;
         left: 8vw;
         font-size: 20px;              
     }
