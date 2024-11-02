@@ -89,7 +89,7 @@ main {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 section {
@@ -101,7 +101,7 @@ section {
 h2 {
     margin: 0;
     padding: 0;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
@@ -176,28 +176,28 @@ i.fa-brands {
 
 @media (min-width: 600px) {
     main {
-        font-size: 20px;
+        font-size: 16px;
     }
     h2 {
-        font-size: 22px;
+        font-size: 18px;
     }
 }
 
 @media (min-width: 1000px) {
     main {
-        font-size: 24px;
+        font-size: 18px;
     }
     h2 {
-        font-size: 26px;
+        font-size: 20px;
     }
 }
 
 @media (min-width: 1280px) {
     main {
-        font-size: 28px;
+        font-size: 20px;
     }
     h2 {
-        font-size: 30px;
+        font-size: 22px;
     }
 }
 
