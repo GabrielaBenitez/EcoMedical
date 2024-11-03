@@ -67,10 +67,10 @@
 }
 
 #servicios-container button {
-    font-size: 16px;
+    font-size: 14px;
     margin: 0;
     background-color: rgba(171, 244, 241, 0.85);
-    border-style: groove;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 #servicios-container button a {
@@ -98,28 +98,32 @@
         margin: 0;              
         position: absolute;  
         left: 3vw;
+    }
+    #servicios-container ul li {
         font-size: 16px;
     }
     #servicios-container h2 {
         font-size: 18px;
     }
     #servicios-container button {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
 @media (min-width: 1000px) {
     #servicios-container {
         width: 40vw;
-        height: 44vh;
-        left: 5vw;
-        font-size: 20px;              
+        height: 45vh;
+        left: 5vw;           
+    }
+    #servicios-container ul li {
+        font-size: 18px;
     }
     #servicios-container h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
     #servicios-container button {
-        font-size: 22px;
+        font-size: 18px;
     }
     #servicios-container:hover {
         transition: transform 0.3s;  
@@ -134,13 +138,15 @@
     #servicios-container {
         width: 30vw;
         height: 46vh;
-        left: 8vw;
-        font-size: 22px;              
+        left: 8vw;             
+    }
+    #servicios-container ul li {
+        font-size: 20px;
     }
     #servicios-container h2 {
-        font-size: 24px;
+        font-size: 22px;
     }
     #servicios-container button {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
