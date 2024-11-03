@@ -66,12 +66,14 @@
     text-decoration: underline;
 }
 
-#servicios-container h3 {
+#servicios-container button {
     font-size: 16px;
     margin: 0;
+    background-color: rgba(171, 244, 241, 0.85);
+    border-style: groove;
 }
 
-#servicios-container h3 a {
+#servicios-container button a {
     color: #b90707;
     text-decoration: none;
     margin: 0;
@@ -101,7 +103,7 @@
     #servicios-container h2 {
         font-size: 18px;
     }
-    #servicios-container h3 {
+    #servicios-container button {
         font-size: 18px;
     }
 }
@@ -116,7 +118,7 @@
     #servicios-container h2 {
         font-size: 22px;
     }
-    #servicios-container h3 {
+    #servicios-container button {
         font-size: 22px;
     }
     #servicios-container:hover {
@@ -133,12 +135,12 @@
         width: 30vw;
         height: 46vh;
         left: 8vw;
-        font-size: 20px;              
+        font-size: 22px;              
     }
     #servicios-container h2 {
-        font-size: 22px;
+        font-size: 24px;
     }
-    #servicios-container h3 {
-        font-size: 22px;
+    #servicios-container button {
+        font-size: 24px;
     }
 }
