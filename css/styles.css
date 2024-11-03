@@ -111,13 +111,13 @@
         width: 40vw;
         height: 44vh;
         left: 5vw;
-        font-size: 18px;              
+        font-size: 20px;              
     }
     #servicios-container h2 {
-        font-size: 20px;
+        font-size: 22px;
     }
     #servicios-container h3 {
-        font-size: 20px;
+        font-size: 22px;
     }
     #servicios-container:hover {
         transition: transform 0.3s;  
