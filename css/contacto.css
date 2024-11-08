@@ -86,3 +86,21 @@
         font-size: 20px;
     }
 }
+
+@media (min-height: 800px) {
+    .contacto-texto-container h2 {
+        font-size: 26px;
+    }
+    .contacto-texto-container p {
+        font-size: 24px;
+    }
+}
+
+@media (min-height: 1000px) {
+    .contacto-texto-container h2 {
+        font-size: 30px;
+    }
+    .contacto-texto-container p {
+        font-size: 28px;
+    }
+}

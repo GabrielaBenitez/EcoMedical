@@ -112,3 +112,27 @@
         font-size: 20px;
     }
 }
+
+@media (min-height: 800px) {
+    .ubicacion-texto-contenedor h2 {
+        font-size: 26px;
+    }
+    .ubicacion-texto-contenedor p {
+        font-size: 24px;
+    }
+    .ubicacion-texto-contenedor a {
+        font-size: 24px;
+    }
+}
+
+@media (min-height: 1000px) {
+    .ubicacion-texto-contenedor h2 {
+        font-size: 30px;
+    }
+    .ubicacion-texto-contenedor p {
+        font-size: 28px;
+    }
+    .ubicacion-texto-contenedor a {
+        font-size: 28px;
+    }
+}

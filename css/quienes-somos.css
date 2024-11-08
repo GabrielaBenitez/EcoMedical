@@ -91,3 +91,21 @@
         font-size: 22px;
     }
 }
+
+@media (min-height: 800px) {
+    #quienes-somos-container-p {
+        font-size: 24px;
+    }
+    #quienes-somos-container-p h2 {
+        font-size: 26px;
+    }
+}
+
+@media (min-height: 1000px) {
+    #quienes-somos-container-p {
+        font-size: 28px;
+    }
+    #quienes-somos-container-p h2 {
+        font-size: 30px;
+    }
+}

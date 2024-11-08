@@ -34,7 +34,7 @@
     font-weight: 900;
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
     width: 70vw;
-    height: 40vh;
+    height: 80%;
     margin: 0 auto;
     position: relative; 
     padding: 0;
@@ -51,12 +51,13 @@
     font-size: 14px;
     list-style-type:none;
     margin: 0 auto;
-    padding: 0px 5px 1px 1px;
+    padding: 0px 0px 1px 0px;
+    text-align: left;
 }
 
 #servicios-container ul li i {
     color: #1b5d5d;
-    padding-right: 10px;
+    padding: 0px 10px 0px 0px;
 }
 
 #servicios-container h2 {
@@ -64,6 +65,7 @@
     font-weight: bolder;
     margin: 0;
     text-decoration: underline;
+    padding: 10px 0px 0px 0px;
 }
 
 #servicios-container button {
@@ -71,6 +73,7 @@
     margin: 0;
     background-color: rgba(171, 244, 241, 0.85);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 0px 0px 10px 0px;
 }
 
 #servicios-container button a {
@@ -89,12 +92,8 @@
 /* -----------------------------------------------RESPONSIVE---------------------------------------------- */
 
 @media (min-width: 600px) {
-    #fondo-inicio {
-        height: 50vh;
-    }
     #servicios-container {
         width: 45vw;
-        height: 42vh;
         margin: 0;              
         position: absolute;  
         left: 3vw;
@@ -111,9 +110,11 @@
 }
 
 @media (min-width: 1000px) {
+    #fondo-inicio {
+        height: 75vh;
+    }
     #servicios-container {
         width: 40vw;
-        height: 45vh;
         left: 5vw;           
     }
     #servicios-container ul li {
@@ -132,12 +133,8 @@
 }
 
 @media (min-width: 1280px) {
-    #fondo-inicio {
-        height: 70vh;
-    }
     #servicios-container {
         width: 30vw;
-        height: 46vh;
         left: 8vw;             
     }
     #servicios-container ul li {
@@ -148,5 +145,32 @@
     }
     #servicios-container button {
         font-size: 20px;
+    }
+}
+
+@media (min-height: 800px) {
+    #servicios-container {
+        height: 70%;
+    }
+    #servicios-container ul li {
+        font-size: 24px;
+    }
+    #servicios-container h2 {
+        font-size: 26px;
+    }
+    #servicios-container button {
+        font-size: 24px;
+    }
+}
+
+@media (min-height: 1000px) {
+    #servicios-container ul li {
+        font-size: 28px;
+    }
+    #servicios-container h2 {
+        font-size: 30px;
+    }
+    #servicios-container button {
+        font-size: 28px;
     }
 }
